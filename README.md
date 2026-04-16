@@ -107,7 +107,24 @@ images/ → Dashboard screenshots
 
 * **Source:** City of Chicago Open Data Portal
 * **Dataset:** Current Employee Names, Salaries, and Position Titles
-* **Link:** https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w/about_data
+
+### ⚠️ Note:
+
+The dataset link may occasionally return a **403 Forbidden error** due to access restrictions from the data portal.
+
+### 🔗 Access Options:
+
+**Option 1 (Primary):**
+https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w/about_data
+
+**Option 2 (If link doesn't work):**
+
+* Open Google
+* Search: **"Chicago employee salary dataset xzkq xp2w"**
+* Click the official City of Chicago dataset page
+
+Alternatively, users can directly use the cleaned dataset provided in this repository inside the `/data` folder.
+
 ---
 
 ## 💡 Skills Demonstrated
