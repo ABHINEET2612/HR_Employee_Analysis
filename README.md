@@ -107,7 +107,7 @@ images/ → Dashboard screenshots
 
 * **Source:** City of Chicago Open Data Portal
 * **Dataset:** Current Employee Names, Salaries, and Position Titles
-* **Link:** https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w/about_data
+* **Link:** [https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w/about_data](https://data.cityofchicago.org/stories/s/Current-Employee-Names-Salaries-and-Position-Title/aned-ke5c)
 
 ---
 
