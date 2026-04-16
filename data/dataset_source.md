@@ -3,7 +3,7 @@
 ## 📌 Dataset Details
 - **Name:** Current Employee Names, Salaries, and Position Titles  
 - **Source:** City of Chicago Open Data Portal  
-- **Link:** https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w/about_data  
+- **Link:** https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w/about_data
 
 ---
 
