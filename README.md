@@ -123,7 +123,7 @@ https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Sal
 * Search: **"Chicago employee salary dataset"**
 * Click the official City of Chicago dataset page
 
-Alternatively, users can directly use the cleaned dataset provided in this repository inside the `/data` folder.
+Alternatively, users can directly use the cleaned dataset provided in this repository inside the `/data` folder OR can be viewed by opening link in new tab / copy-paste.
 
 ---
 
