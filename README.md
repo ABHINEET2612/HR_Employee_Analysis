@@ -121,7 +121,7 @@ The analysis follows a complete workflow from raw data to business insights, emp
 
 ### Top 10 Highest Paying Job Titles
 SELECT job_title,
-       ROUND(AVG(salary), 2) AS avg_salary
+ROUND(AVG(salary), 2) AS avg_salary
 FROM employees
 GROUP BY job_title
 ORDER BY avg_salary DESC
@@ -129,18 +129,19 @@ LIMIT 10;
 
 ### Department-wise Workforce & Salary Distribution
 SELECT department,
-       COUNT(*) AS employee_count,
-       ROUND(AVG(salary), 2) AS avg_salary
+COUNT(*) AS employee_count,
+ROUND(AVG(salary), 2) AS avg_salary
 FROM employees
 GROUP BY department
 ORDER BY employee_count DESC;
 
 ### Salary Ranking Within Departments
 SELECT department,
-       job_title,
-       salary,
-       RANK() OVER (PARTITION BY department ORDER BY salary DESC) AS salary_rank
+job_title,
+salary,
+RANK() OVER (PARTITION BY department ORDER BY salary DESC) AS salary_rank
 FROM employees;
+
 ---
 ## 🔍 Key Insights
 
