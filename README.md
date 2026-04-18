@@ -22,9 +22,9 @@ The analysis follows a complete workflow from raw data to business insights, emp
 
 ## 🛠️ Tools & Technologies
 
-* **SQL (MySQL)** → Data querying, aggregation, and analysis
-* **Excel (Power Query)** → Data cleaning and transformation
-* **Excel (Pivot Tables & Charts)** → Dashboard creation
+* **SQL (MySQL)** → Data querying, aggregation, window functions, and analytical computations  
+* **Excel (Power Query)** → Data cleaning, transformation, and preparation (~32K records)
+* **Excel (Charts & Dashboarding)** → Visual representation of salary distribution and workforce insights
 
 ---
 
@@ -32,36 +32,51 @@ The analysis follows a complete workflow from raw data to business insights, emp
 
 ### 1. Data Cleaning (Excel Power Query)
 
-* Removed inconsistencies and null values
-* Standardized column formats
-* Created derived columns for better analysis
-* Prepared structured dataset for SQL ingestion
+* Cleaned ~32,000 employee records to ensure consistency and usability  
+* Handled missing and inconsistent values across key fields (department, job title, salary)  
+* Standardized column formats for seamless SQL ingestion  
+* Created derived fields to support structured analysis  
+* Prepared a clean, analysis-ready dataset for database loading  
 
 ---
 
 ### 2. SQL Data Analysis
 
-* Imported cleaned dataset into SQL database
-* Performed:
+* Loaded cleaned dataset into MySQL database using structured schema  
+* Performed data analysis using:
+  - Aggregations (SUM, AVG, COUNT)
+  - Grouping and filtering across departments and job titles  
+  - Window functions (RANK, DENSE_RANK, NTILE, PERCENT_RANK) for salary segmentation  
 
-  * Aggregations (SUM, AVG, COUNT)
-  * Filtering and grouping
-  * Department-level and role-level analysis
-* Identified patterns in salary distribution and workforce structure
+* Conducted:
+  - Department-level workforce and salary distribution analysis  
+  - Role-based salary ranking and hierarchy identification  
+  - Percentile-based segmentation to identify top salary brackets  
+
+* Identified structural patterns in:
+  - Salary distribution across ~32K employees  
+  - Workforce concentration across departments  
+  - Hierarchical compensation trends within roles  
 
 ---
 
-### 3. Excel Dashboarding
+### 📊 3. Excel Dashboarding
 
-* Built a **4-sheet Excel dashboard structure**:
+* Built a structured **4-sheet Excel workflow**:
+  - Raw Data → cleaned dataset (~32K records)  
+  - Analysis → intermediate calculations and summaries  
+  - Dashboard → final visual outputs  
+  - Data Dictionary → column definitions and metadata  
 
-  * Raw Data
-  * Analysis
-  * Dashboard
-  * Data Dictionary
-* Used Pivot Tables and charts for visualization
-* Designed dashboard for quick business interpretation
+* Created visualizations using Excel charts to represent:
+  - Salary distribution across departments  
+  - Workforce concentration by department  
+  - Role-based salary comparisons  
 
+* Designed the dashboard to enable:
+  - Quick interpretation of salary structure  
+  - Clear identification of high-paying roles and departments  
+  - Easy navigation between raw data, analysis, and final insights  
 ---
 
 ## 📊 Dashboard Preview
