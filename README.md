@@ -155,7 +155,7 @@ FROM employees;
 
 - The dataset contains approximately 32,000 employees, providing a comprehensive view of workforce and salary distribution.  
 
-- Average salaries vary significantly across departments, indicating structural pay differences rather than uniform compensation distribution.  
+- Average salaries vary significantly across departments, indicating that compensation is driven by role specialization and departmental function rather than a uniform pay structure.  
 
 - Job title plays a critical role in compensation, with top-ranked roles consistently appearing at the highest salary levels based on ranking functions.  
 
@@ -167,7 +167,7 @@ FROM employees;
 ---
 ## 💡 Business Recommendations
 
-- Departments with higher average salary concentration should be evaluated to determine whether compensation aligns with role criticality and business impact.  
+- Departments with higher average salary concentration should be assessed to determine whether compensation aligns with role criticality and business impact.  
 
 - High-paying job titles identified through ranking analysis should be evaluated for performance alignment and organizational impact.  
 
@@ -175,7 +175,10 @@ FROM employees;
 
 - Salary distribution skew indicates the need for compensation benchmarking to ensure fairness and transparency.  
 
-- Organizations can use percentile-based segmentation to identify top earners and design targeted retention or performance strategies.  
+- Organizations can use percentile-based segmentation to identify top earners and design targeted retention or performance strategies.
+
+- Overall, the salary distribution is heavily right-skewed, where a small proportion of employees account for a disproportionately high share of total salary expenditure. 
+
 ---
 ## 📌 Case Insight
 
@@ -186,6 +189,7 @@ Using window functions such as RANK() and PERCENT_RANK(), the analysis reveals a
 A small proportion of employees consistently occupy the top salary ranks, while the majority fall into mid-to-lower salary brackets.
 
 This highlights a skewed compensation structure where a small proportion of employees capture a disproportionate share of total salary allocation.
+
 ---
 ## 📁 Project Structure
 
@@ -247,4 +251,5 @@ This analysis enables:
 
 ## 📬 Contact
 
-Open to Data Analyst opportunities — feel free to connect.
+Actively seeking Data Analyst roles (Internship / Full-time).  
+Open to opportunities in Bangalore and remote roles.
