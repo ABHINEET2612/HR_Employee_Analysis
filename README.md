@@ -164,6 +164,9 @@ FROM employees;
 - Salary ranking within departments highlights a clear hierarchical pay structure, where a small subset of roles dominates the upper salary brackets.  
 
 - Percentile-based analysis (PERCENT_RANK, NTILE) shows that a small percentage of employees fall into top salary tiers, indicating skewed compensation distribution.
+
+- Overall, the salary distribution is heavily right-skewed, where a small proportion of employees account for a disproportionately high share of total salary expenditure. 
+ 
 ---
 ## 💡 Business Recommendations
 
@@ -176,8 +179,6 @@ FROM employees;
 - Salary distribution skew indicates the need for compensation benchmarking to ensure fairness and transparency.  
 
 - Organizations can use percentile-based segmentation to identify top earners and design targeted retention or performance strategies.
-
-- Overall, the salary distribution is heavily right-skewed, where a small proportion of employees account for a disproportionately high share of total salary expenditure. 
 
 ---
 ## 📌 Case Insight
