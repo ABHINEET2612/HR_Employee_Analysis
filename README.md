@@ -1,5 +1,3 @@
-# HR_Employee_Analysis
-SQL and Excel-based analysis of employee salary and workforce data (Chicago dataset)
 # 📊 Employee Salary Analysis (SQL + Excel)
 
 ## 📌 Project Overview
@@ -118,8 +116,8 @@ The analysis follows a complete workflow from raw data to business insights, emp
 
 ---
 ## 🧾 Sample SQL Queries
-```sql
 ### Top 10 Highest Paying Job Titles
+```sql
 SELECT 
     job_title, 
     ROUND(AVG(salary), 2) AS avg_salary
@@ -127,8 +125,10 @@ FROM employees
 GROUP BY job_title
 ORDER BY avg_salary DESC
 LIMIT 10;
+```
 
 ### Department-wise Workforce & Salary Distribution
+```sql
 SELECT 
     department, 
     COUNT(*) AS employee_count, 
@@ -136,8 +136,10 @@ SELECT
 FROM employees
 GROUP BY department
 ORDER BY employee_count DESC;
+```
 
 ### Salary Ranking Within Departments
+```sql
 SELECT 
     department, 
     job_title, 
@@ -153,7 +155,7 @@ FROM employees;
 
 - The dataset contains approximately 32,000 employees, providing a comprehensive view of workforce and salary distribution.  
 
-- Salary distribution is highly uneven across departments, with certain departments showing significantly higher average salaries than others.  
+- Average salaries vary significantly across departments, indicating structural pay differences rather than uniform compensation distribution.  
 
 - Job title plays a critical role in compensation, with top-ranked roles consistently appearing at the highest salary levels based on ranking functions.  
 
@@ -165,7 +167,7 @@ FROM employees;
 ---
 ## 💡 Business Recommendations
 
-- Departments with significantly higher average salaries should be reviewed for budget efficiency and role justification.  
+- Departments with higher average salary concentration should be evaluated to determine whether compensation aligns with role criticality and business impact.  
 
 - High-paying job titles identified through ranking analysis should be evaluated for performance alignment and organizational impact.  
 
@@ -183,7 +185,7 @@ Using window functions such as RANK() and PERCENT_RANK(), the analysis reveals a
 
 A small proportion of employees consistently occupy the top salary ranks, while the majority fall into mid-to-lower salary brackets.
 
-This indicates that compensation is heavily influenced by role seniority and specialization, rather than being evenly distributed across employees.
+This highlights a skewed compensation structure where a small proportion of employees capture a disproportionate share of total salary allocation.
 ---
 ## 📁 Project Structure
 
@@ -211,7 +213,7 @@ https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Sal
 **Option 2 (If link doesn't work):**
 
 * Open Google
-* Search: **"Chicago employee salary dataset"**
+* Search: **"Chicago employee salary dataset xzkq xp2w"**
 * Click the official City of Chicago dataset page
 
 Alternatively, users can directly use the cleaned dataset provided in this repository inside the `/data` folder OR can be viewed by opening link in new tab / copy-paste.
